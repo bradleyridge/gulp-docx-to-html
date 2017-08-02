@@ -1,0 +1,11 @@
+{
+  "name": "docx-to-html",
+  "version": "1.0.0",
+  "description": "Convert docx to html with a gulp-friendly module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bradley-ridge",
+  "license": "ISC"
+}
