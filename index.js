@@ -10,7 +10,7 @@ module.exports = () => {
       mammoth.convertToHtml({path: file.path})
         .then(function(result){
             var rawOutput = result.value;
-            var bufferedOutput = new Buffer(output);
+            var bufferedOutput = new Buffer(rawOutput);
             file.contents = bufferedOutput;
             file.path = replaceExt(file.path, '.html');
             cb(null, file);
